@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:praktikum/app/data/widgets/theme_controller.dart';
 import 'app/routes/app_pages.dart';
+import 'package:praktikum/depention_injection.dart';
 
 void main() {
   // Inisialisasi ThemeController
@@ -22,4 +23,5 @@ void main() {
       );
     }),
   );
+  DependentionInjection.init();
 }
