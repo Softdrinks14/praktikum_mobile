@@ -30,6 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_sign_in: ^6.2.1
+  firebase_auth: ^4.7.3
+  firebase_core: ^2.15.1
   cupertino_icons: ^1.0.8
   get: ^4.6.6
   carousel_slider: ^5.0.0

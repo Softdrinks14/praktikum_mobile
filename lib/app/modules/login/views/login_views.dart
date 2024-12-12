@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:praktikum/app/modules/login/controllers/auth_controller.dart';
 import 'package:praktikum/app/modules/login/controllers/login_controller.dart';
 import 'package:praktikum/app/routes/app_pages.dart';
 
 class LoginView extends GetView<LoginController> {
   LoginView({super.key});
+  final auth = AuthController();
 
   @override
   Widget build(BuildContext context) {
@@ -111,10 +113,10 @@ class LoginView extends GetView<LoginController> {
             Obx(
               () => controller.isLoading.value
                   ? const Center(child: CircularProgressIndicator())
-                  : GestureDetector(
-                      onTap: () {
-                        print("GOOGLE LOGIN PRESSED");
-                        // Logika untuk login dengan Google
+                  : ElevatedButton(
+                      onPressed: () async {
+                        await auth.loginWithGoogle();
+                        Get.toNamed(Routes.GEOLOCATION);
                       },
                       child: Container(
                         height: 50,

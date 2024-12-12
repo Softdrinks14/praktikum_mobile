@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "74696540904",
+    "project_id": "e-qurban-3a2c9",
+    "storage_bucket": "e-qurban-3a2c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74696540904:android:660161d96d510862333f5d",
+        "android_client_info": {
+          "package_name": "com.example.e_qurban"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74696540904-3339cdnb8enkf225otm5qdr50phu7a5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxUDlE15A-yhLw1pCKwcGbPIBfWop2VZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74696540904-3339cdnb8enkf225otm5qdr50phu7a5t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "74696540904-qbmbc0v0jsccaknfct5t3s7kpoh8sgjh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eQurban"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74696540904:android:f67eacbc409faf12333f5d",
+        "android_client_info": {
+          "package_name": "com.praktikum.mobile.praktikum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74696540904-3339cdnb8enkf225otm5qdr50phu7a5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxUDlE15A-yhLw1pCKwcGbPIBfWop2VZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74696540904-3339cdnb8enkf225otm5qdr50phu7a5t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "74696540904-qbmbc0v0jsccaknfct5t3s7kpoh8sgjh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eQurban"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
